@@ -13,11 +13,8 @@ class Solution {
            tmp=tmp.next;
            length++;
        }
-        if(length==0)
-        {
-            return null;
-        }
-        else if(k==length)
+   
+        if(k==length||length==0)
         {
           return head; 
         }

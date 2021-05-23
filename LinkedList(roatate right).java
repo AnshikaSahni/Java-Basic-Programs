@@ -9,7 +9,8 @@ class Solution {
         int m;
         int c=1;
        while(tmp!=null)
-       {
+       {    
+           j=tmp;
            tmp=tmp.next;
            length++;
        }
@@ -23,11 +24,7 @@ class Solution {
             k=k%length;
             
         }
-        while(j.next!=null)
-        {
-         j=j.next;
-           
-        }
+        
         while(c<length-k)
          {
            i=i.next;

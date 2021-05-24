@@ -6,8 +6,6 @@ public class Solution {
         }
         ListNode slow=head;
         ListNode fast=head;
-        int pos=0;
-        int c=0;
         while(fast!=null&&fast.next!=null)
         {
             slow=slow.next;
